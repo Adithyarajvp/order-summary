@@ -1,0 +1,93 @@
+body{
+  margin: 0;
+  text-align: center;
+  background-color:  hsl(225, 100%, 94%);
+  background-image:url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: 'Red Hat Display', sans-serif;
+
+}
+h1{
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  font-size: 1.5rem;
+}
+h2{
+  font-size: 1rem;
+  margin-bottom: 0;
+  color: hsl(223, 47%, 23%);
+}
+.box{
+  background-color: white;
+  width: 370px;
+  padding-bottom: 10px;
+  margin:70px auto;
+  border-radius: 20px;
+
+}
+.illustration{
+  width: 370px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+
+}
+.order-summary{
+  width: 80%;
+  margin: auto;
+  padding-bottom: 5px;
+}
+.money-tag{
+  text-align: left;
+  margin-bottom: 15px;
+  display: inline-block;
+  margin-right: 60px;
+
+}
+.money-tag1{
+  background-color: #f8f9fe;
+  position: relative;
+  padding: 10px 0;
+  width: 300px;
+  margin:10px auto;
+  border-radius: 10px;
+}
+.music-icon{
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  float: left;
+  margin-right: 5px;
+  margin-left:5px;
+}
+a{
+
+ position: absolute;
+ top: 35px;
+
+}
+.prise{
+  display: inline;
+  text-align: left;
+}
+button{
+  width: 300px;
+  padding:10px 0;
+  border-radius: 10px;
+  border: none;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 20px;
+}
+button:hover{
+  background-color: hsl(224, 23%, 55%);
+}
+.cancel{
+  cursor: pointer;
+  padding-top: 10px;
+}
+p{
+  color: hsl(224, 23%, 55%);
+}
